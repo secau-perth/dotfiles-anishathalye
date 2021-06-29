@@ -253,3 +253,9 @@
 [submodule "emacs.d/vendor/pos-tip"]
 	path = emacs.d/vendor/pos-tip
 	url = https://github.com/pitkali/pos-tip
+[submodule "zsh/plugins/fast-syntax-highlighting"]
+	path = zsh/plugins/fast-syntax-highlighting
+	url = https://github.com/issenn/fast-syntax-highlighting
+[submodule "zsh/plugins/yapipenv"]
+	path = zsh/plugins/yapipenv
+	url = https://github.com/AnonGuy/yapipenv.zsh

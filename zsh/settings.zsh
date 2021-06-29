@@ -15,18 +15,26 @@ autoload -U edit-command-line && zle -N edit-command-line
 setopt interactivecomments
 
 # Nicer history
-HISTSIZE=1048576
+HISTSIZE=2097152
 HISTFILE="$HOME/.zsh_history"
 SAVEHIST=$HISTSIZE
+
+setopt extendedglob
+setopt sharehistory
+setopt completeinword
+setopt completealiases
 setopt appendhistory
 setopt incappendhistory
 setopt extendedhistory
+setopt rmstarsilent
+setopt autocd
+setopt nocaseglob
 
 # Time to wait for additional characters in a sequence
 KEYTIMEOUT=1 # corresponds to 10ms
 
 # Use vim as the editor
-export EDITOR=vim
+export EDITOR=nano
 
 # Use vim style line editing in zsh
 bindkey -v

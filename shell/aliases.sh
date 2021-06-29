@@ -7,10 +7,6 @@ alias ll='ls -lah'
 alias la='ls -A'
 alias l='ls'
 
-# Aliases to protect against overwriting
-alias cp='cp -i'
-alias mv='mv -i'
-
 # git related aliases
 alias gag='git exec ag'
 
@@ -134,3 +130,30 @@ alias mirrorsite='wget -m -k -K -E -e robots=off'
 
 # Mirror stdout to stderr, useful for seeing data going through a pipe
 alias peek='tee >(cat 1>&2)'
+
+alias c='clear'
+alias ll='ls -lAh'
+
+if hash exa 2>/dev/null;then
+	alias ls="exa -abghl --git --color=automatic"
+elif hash lsd 2>/dev/null;then
+	alias l="lsd -1"
+else
+	alias l="ls -lh"
+fi
+
+alias catt='pygmentize -O style=borland -f console256 -g'
+
+alias lsp="stat -c '%U:%G| %A | %a | %n'"
+
+alias pbcopy='xclip -selection clipboard'
+
+alias mux='tmux a || tmux new -s shell'
+
+#alias rgg='rg --no-{filename,heading,line-number} --color never'
+
+alias rmd='rm -fr'
+
+alias mkdir='mkdir -pv'
+
+alias fports='for p in 8080 443 80'
