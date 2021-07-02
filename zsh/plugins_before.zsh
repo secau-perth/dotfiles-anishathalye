@@ -1,5 +1,8 @@
 # External plugins (initialized after)
 
+export ZSH="$HOME/.zsh"
+export ZSH_CUSTOM="$HOME/.zsh/custom"
+
 plugins=(archlinux git systemd yapipenv zsh_reload fast-syntax-highlighting history-substring-search)
 
 function is_plugin() {
