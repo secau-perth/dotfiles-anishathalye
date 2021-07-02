@@ -259,3 +259,24 @@
 [submodule "zsh/plugins/yapipenv"]
 	path = zsh/plugins/yapipenv
 	url = https://github.com/AnonGuy/yapipenv.zsh
+[submodule "zsh/custom/plugins/fast-syntax-highlighting"]
+	path = zsh/custom/plugins/fast-syntax-highlighting
+	url = https://github.com/issenn/fast-syntax-highlighting
+[submodule "zsh/custom/plugins/yapipenv"]
+	path = zsh/custom/plugins/yapipenv
+	url = https://github.com/AnonGuy/yapipenv.zsh
+[submodule "zsh/custom/plugins/goenv"]
+	path = zsh/custom/plugins/goenv
+	url = https://github.com/bbenne10/goenv
+[submodule "zsh/custom/plugins/git-extra-commands"]
+	path = zsh/custom/plugins/git-extra-commands
+	url = https://github.com/unixorn/git-extra-commands
+[submodule "zsh/custom/plugins/docker-zsh-completion"]
+	path = zsh/custom/plugins/docker-zsh-completion
+	url = https://github.com/greymd/docker-zsh-completion
+[submodule "zsh/custom/plugins/terraform-zsh-plugin"]
+	path = zsh/custom/plugins/terraform-zsh-plugin
+	url = https://github.com/jsporna/terraform-zsh-plugin
+[submodule "zsh/custom/themes/powerlevel10k"]
+	path = zsh/custom/themes/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k
